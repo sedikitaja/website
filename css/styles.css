@@ -1,8 +1,9 @@
 :root {
-  --MAIN_COLOUR: #CEE5D0;
-  --SECONDARY_COLOUR: #F3F0D7;
-  --ACCENT_COLOUR: #F7D59C;
-  --SECONDARY_ACCENT: #5E454B;
+  --MAIN_COLOUR: #6DC995;
+  --SECONDARY_COLOUR: #BEF2EB;
+  --ACCENT_COLOUR: #3A91AA;
+  --SECONDARY_ACCENT: #6B4897;
+  --SECONDARY_ACCENT: #6B4897;
 }
 
 img {
@@ -40,7 +41,7 @@ h3 {
 
 body {
   text-align: center;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Lato', sans-serif;
   background-color: var(--MAIN_COLOUR);
   margin: 0;
 }
@@ -162,7 +163,7 @@ a {
   -moz-border-radius: 28;
   border-radius: 28px;
   font-family: Arial;
-  color: #F3F0D7;
+  color: var(--MAIN_COLOUR);
   font-size: 20px;
   background: var(--SECONDARY_ACCENT);
   padding: 10px 20px;
@@ -170,7 +171,7 @@ a {
 }
 
 .btn:hover {
-  background: var(--SECONDARY_COLOUR);
+  background: var(--ACCENT_COLOUR);
   color: var(--SECONDARY_ACCENT);
   text-decoration: none;
 }
